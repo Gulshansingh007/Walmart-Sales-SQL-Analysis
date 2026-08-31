@@ -1,103 +1,92 @@
-# 📊 Sales Data EDA using Python
+# 📊 Walmart Sales Analysis using SQL
 
 ## 📌 Project Overview
 
-This project performs Exploratory Data Analysis (EDA) on sales data using Python to uncover sales patterns, customer purchasing behavior, and business trends. The objective is to derive actionable insights through data cleaning, transformation, and visualization.
+This project analyzes Walmart sales data using SQL to uncover sales trends, customer behavior, and branch performance. The objective is to derive actionable business insights through data exploration, aggregation, and reporting using SQL queries.
 
 ---
 
 ## 🛠️ Tools & Technologies
 
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- Jupyter Notebook
+- MySQL
+- SQL
 - GitHub
+- CSV Dataset
 
 ---
 
 ## 📁 Dataset
 
-The dataset contains sales transaction records with the following information:
+The dataset contains Walmart sales records with the following columns:
 
-- Order ID
-- Product
-- Quantity Ordered
-- Price Each
-- Order Date
-- Purchase Address
-- Sales Revenue
+- Invoice ID
+- Branch
 - City
-- Month
+- Customer Type
+- Gender
+- Product Line
+- Unit Price
+- Quantity
+- Tax
+- Total
+- Date
+- Time
+- Payment Method
+- Rating
+
+**Dataset Source:**  
+https://www.kaggle.com/c/walmart-recruiting-store-sales-forecasting
 
 ---
 
 ## 🧹 Data Cleaning
 
-- Removed missing and duplicate values
-- Converted data types for analysis
-- Extracted month, hour, and city information
-- Created sales-related calculated columns
+- Checked for NULL values
+- Verified data consistency
+- Converted date and time formats
+- Created calculated fields where required
+- Standardized column values
 
 ---
 
-## 📈 Analysis Performed
+## 📈 SQL Analysis Performed
 
-- Monthly Sales Analysis
-- City-wise Revenue Analysis
-- Best Selling Products
-- Peak Purchase Hours
-- Customer Purchase Patterns
-- Product Combination Analysis
-- Sales Trend Visualization
+- Total Sales by Branch
+- Revenue Analysis by Product Line
+- Average Customer Rating
+- Payment Method Analysis
+- Peak Sales Hour Analysis
+- City-wise Revenue Distribution
+- Customer Type Comparison
+- Branch Performance Evaluation
 
 ---
 
 ## 📌 Key Insights
 
-- Identified the highest revenue-generating months.
-- Determined the top-performing cities based on sales.
-- Analyzed customer purchasing behavior and peak buying hours.
-- Identified the best-selling products and product combinations.
+- Branch A generated the highest overall revenue.
+- Cashless payment methods were widely preferred by customers.
+- Evening hours recorded the highest sales volume.
+- Food and Beverages emerged as one of the top-performing product lines.
+- Customer ratings remained consistently high across branches.
 
 ---
 
 ## 📂 Project Structure
 
-Sales-Data-EDA/
+```text
+Walmart-Sales-SQL-Analysis/
 
 │
 
 ├── dataset/
-
-│ └── Sales_Data.csv
-
-│
-
-├── notebooks/
-
-│ └── Python_Project.ipynb
+│   └── WalmartSalesData.csv
 
 │
 
-├── images/
-
-│ └── visualizations.png
+├── sql/
+│   └── walmart_sales_analysis.sql
 
 │
 
 └── README.md
-
----
-
-## 🚀 Conclusion
-
-This project demonstrates practical skills in data cleaning, exploratory data analysis, data visualization, and business insight generation using Python. The findings can help organizations make data-driven decisions to improve sales performance and customer engagement.
-
----
-
-## 👨‍💻 Author
-
-**Gulshan Kumar Singh**
