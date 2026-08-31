@@ -1,53 +1,103 @@
-Walmart Sales Analysis using SQL
+# 📊 Sales Data EDA using Python
 
+## 📌 Project Overview
 
-📊 Project Overview
+This project performs Exploratory Data Analysis (EDA) on sales data using Python to uncover sales patterns, customer purchasing behavior, and business trends. The objective is to derive actionable insights through data cleaning, transformation, and visualization.
 
+---
 
-This project analyzes Walmart sales data using SQL to uncover sales trends, customer behavior, and branch performance. The goal is to derive meaningful business insights using structured query language.
+## 🛠️ Tools & Technologies
 
-🛠 Tools & Technologies
-MySQL
-SQL
-GitHub
-CSV Dataset
-📁 Dataset
-The dataset contains Walmart sales records with the following columns:
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Jupyter Notebook
+- GitHub
 
-Invoice ID
-Branch
-City
-Customer Type
-Gender
-Product Line
-Unit Price
-Quantity
-Tax
-Total
-Date
-Time
-Payment Method
-Rating
-Dataset Location:(https://www.kaggle.com/c/walmart-recruiting-store-sales-forecasting)
+---
 
-🧹 Data Cleaning
-Checked for NULL values
-Converted date and time formats
-Created calculated columns where required
-📈 SQL Analysis Performed
-Total sales by branch
-Total revenue by product line
-Average customer rating
-Sales by payment method
-Peak sales hours
-City-wise revenue distribution
-📌 Key Insights
-Branch A generated the highest revenue
-Cashless payments are most preferred
-Evening hours show peak sales
-Certain product lines outperform others consistently
-📂 Project Structure
-Walmart-Sales-SQL-Analysis/ │ ├── dataset/ │ └── WalmartSalesData.csv │ ├── sql/ │ └── walmart_sales_analysis.sql │ └── README.md
+## 📁 Dataset
 
-🚀 Conclusion
-This SQL project demonstrates strong data analysis skills including data cleaning, aggregation, and business insight generation using SQL queries.
+The dataset contains sales transaction records with the following information:
+
+- Order ID
+- Product
+- Quantity Ordered
+- Price Each
+- Order Date
+- Purchase Address
+- Sales Revenue
+- City
+- Month
+
+---
+
+## 🧹 Data Cleaning
+
+- Removed missing and duplicate values
+- Converted data types for analysis
+- Extracted month, hour, and city information
+- Created sales-related calculated columns
+
+---
+
+## 📈 Analysis Performed
+
+- Monthly Sales Analysis
+- City-wise Revenue Analysis
+- Best Selling Products
+- Peak Purchase Hours
+- Customer Purchase Patterns
+- Product Combination Analysis
+- Sales Trend Visualization
+
+---
+
+## 📌 Key Insights
+
+- Identified the highest revenue-generating months.
+- Determined the top-performing cities based on sales.
+- Analyzed customer purchasing behavior and peak buying hours.
+- Identified the best-selling products and product combinations.
+
+---
+
+## 📂 Project Structure
+
+Sales-Data-EDA/
+
+│
+
+├── dataset/
+
+│ └── Sales_Data.csv
+
+│
+
+├── notebooks/
+
+│ └── Python_Project.ipynb
+
+│
+
+├── images/
+
+│ └── visualizations.png
+
+│
+
+└── README.md
+
+---
+
+## 🚀 Conclusion
+
+This project demonstrates practical skills in data cleaning, exploratory data analysis, data visualization, and business insight generation using Python. The findings can help organizations make data-driven decisions to improve sales performance and customer engagement.
+
+---
+
+## 👨‍💻 Author
+
+**Gulshan Kumar Singh**
